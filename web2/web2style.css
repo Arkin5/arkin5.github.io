@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+	body
+		{
+			background-color:antiquewhite;
+			
+			margin-left: 100px;
+			margin-right: 100px;
+			margin-top: 100px;
+			margin-bottom: 100px;
+			
+			font-family: "Andale Mono";
+		}
+		
+		h1
+		{
+			font-size: 50px;
+			font-family: "Gill Sans";
+		}
+		
+		h2
+		{
+			font-size: 40px;
+			font-family: "Hoefler Text";
+		}
+		
+		h3
+		{
+			font-size: 40px;
+			font-family: "Hoefler Text";
+		}
+		
+		p
+		{
+			font-size: 30px;
+		}
