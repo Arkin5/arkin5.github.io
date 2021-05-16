@@ -5,14 +5,14 @@
 	body
 		{
 			background-color:cornflowerblue;
-			background-image: url("forest_back1.jpg");
+
 			background-repeat: no-repeat, repeat;
 			background-position:top;
 			background-size: cover;
 			text-align: center;
 			overflow: scroll;
 			
-			font-family: "Andale Mono";
+			font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 		}
 	nav {float:none;
 		margin-right:250px;
