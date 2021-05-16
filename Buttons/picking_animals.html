@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<!doctype html>
+<html>
+<head>
+	<style>
+
+	body {
+		background-color:cadetblue;
+		
+		}
+	
+
+	.button
+		{color: cyan;
+		outline-color: aliceblue;
+		text-align: center;}
+	
+	
+</style>
+<meta charset="utf-8">
+<title>Button Practice</title>
+</head>
+
+<body>
+
+<h3>Type an sea animal!</h3>
+	<input type="text" id="SText" value="Some text...">
+<button onclick="myFunction()">Click me!</button>
+
+<h4>Type a land animal!</h4>
+	<input type="text" id="LText" value="Some text...">
+
+<button onclick="myFunction()">Click me!</button>
+
+
+
+<p id="Sea"></p>
+<p id="Land"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("SText").value;
+  document.getElementById("Sea").innerHTML = x;
+  var x = document.getElementById("LText").value;
+  document.getElementById("Land").innerHTML = x;
+}
+</script>
+
+
+	</body>
+</html>
